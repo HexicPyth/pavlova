@@ -27,11 +27,11 @@ var receivers = {
 		m: [ // Mediterranean sea / Middle East
 			'http://sv1btl.no-ip.org:8073/', // Athens, Greece
 			'http://sdr.telcosol.gr:8073/', // Western Greece
-			'http://9k2ra-1.proxy.kiwisdr.com:8073/', // Kuwait
-			'http://9k2ra-2k.proxy.kiwisdr.com:8073/', // Kuwait
-			'http://midskiwi.ddns.net:8073/', // Qatar
 			'http://sibamanna.duckdns.org:8073/', // Sardinia, Italy
 			'http://kiwisdr.briata.org:8073/', // Northern Italy
+			'http://sdr-bayern.spdns.de:8073/', // Upper Bavarian Forest, Germany
+			'http://fsdr.duckdns.org/', // Hungary
+			
 		],
 		n: [ // North America, transmitted from Cuba
 			'http://lounix.net:8073/', // Kansas
@@ -40,6 +40,8 @@ var receivers = {
 			'http://ranch-pt.no-ip.org:8073/', // Texas
 			'http://ka7u.no-ip.org:8074/', // Idaho
 			'http://71.200.243.35:8073/', // Southwest Florida
+			'http://km4rt.ddns.net:8073/', // Tipton County, Tennessee
+			'http://raleigh.twrmon.net:8073/', // North Raleigh, North Carolina
 		],
 		p: [ // Pacific
 			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
