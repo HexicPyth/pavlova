@@ -12,7 +12,6 @@ var receivers = {
 	area: {
 		// All listed here are KiwiSDR instances
 		a: [ // Asia, transmitted from Far East
-			'http://railgun.proxy.kiwisdr.com:8073/', // China
 			'http://szsdr.ddns.net:8073/', // China
 			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
 			'http://nsk2.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
@@ -27,7 +26,6 @@ var receivers = {
 		m: [ // Mediterranean sea / Middle East
 			'http://sv1btl.no-ip.org:8073/', // Athens, Greece
 			'http://sdr.telcosol.gr:8073/', // Western Greece
-			'http://sibamanna.duckdns.org:8073/', // Sardinia, Italy
 			'http://kiwisdr.briata.org:8073/', // Northern Italy
 			'http://sdr-bayern.spdns.de:8073/', // Upper Bavarian Forest, Germany
 			'http://fsdr.duckdns.org/', // Hungary
