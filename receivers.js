@@ -12,15 +12,15 @@ var receivers = {
 	area: {
 		// All listed here are KiwiSDR instances
 		a: [ // Asia, transmitted from Far East
-			'http://szsdr.ddns.net:8073/', // China
-			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
-			'http://nsk2.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
+			'http://szsdr.ddns.net:8073/', // Chin
+			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
 			'http://hl3amo.ddns.net:8074/', // South Korea
 			'http://hl5ntr.ddns.net:8073/', // South Korea
 			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
+			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
+			'http://nsk2.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
 			'http://khv.proxy.kiwisdr.com:8073/', // Khabarovsk, Russia
-			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
 			'http://msk.swl.su:8073/', // Moscow, Russia
 		],
 		m: [ // Mediterranean sea / Middle East
@@ -53,6 +53,13 @@ var receivers = {
 			'http://119.224.45.205:8073/', // New Zealand
 			'http://rjdevlin47.sytes.net:8073/', // Hawaii
 		],
+		r: [ // Russia
+			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
+			'http://nsk2.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
+			'http://khv.proxy.kiwisdr.com:8073/', // Khabarovsk, Russia
+			'http://msk.swl.su:8073/', // Moscow, Russia
+		]
+
 	},
 	timeout: 5000, // Timeout when probing receivers, in milliseconds
 };
